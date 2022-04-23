@@ -1,0 +1,80 @@
+h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #957dad;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+section {
+    padding: 5%;
+    padding-top: 0;
+    height: 100vh;
+}
+  
+.side {
+    margin-left: 0;
+}
+  
+button {
+    margin: 10px;
+    border-color: #957dad !important;
+    color: #888888 !important;
+    margin-bottom: 25px;
+}
+  
+button:hover {
+    background-color: #fec8d8 !important;
+}
+  
+textarea {
+    padding: 3%;
+    border-color: #957dad;
+    border-width: thick;
+}
+  
+.flex-box {
+    display: flex;
+    justify-content: center;
+}
+
+/*******************************Chat containers************************************/
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Style the right image */
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }
